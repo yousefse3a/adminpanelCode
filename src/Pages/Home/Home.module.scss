@@ -1,0 +1,10 @@
+.Home{
+    flex: 5;
+    & >:nth-child(2){
+        margin-left: 1rem;
+    }
+}
+.Widgets{
+    display: flex;
+    flex-flow: row;
+}

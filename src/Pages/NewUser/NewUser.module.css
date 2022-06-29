@@ -1,0 +1,171 @@
+.NewUser {
+  -webkit-box-flex: 4;
+      -ms-flex: 4;
+          flex: 4;
+  padding: 1rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.NewUserContainer {
+  padding: 1rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.NewUserContainer > h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 1.2rem;
+}
+
+.newUserfrom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.newUserfrom > div {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  padding-top: 1rem;
+  padding-right: 2rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.newUserfrom > div > label {
+  margin-bottom: 0.8rem;
+  font-size: 14px;
+  font-weight: 600;
+  color: #979696;
+}
+
+.newUserfrom > div > input {
+  height: 1.2rem;
+  padding: 0.4rem;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.newUserfrom > div p {
+  color: #f02828;
+  margin: 0;
+  padding: 0 0.5rem;
+  font-size: 0.8rem;
+}
+
+.lastCell {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.lastCell > label {
+  margin-bottom: 0.8rem;
+  font-size: 14px;
+  font-weight: 600;
+  color: #979696;
+}
+
+.createBtn {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.imgPro > img {
+  width: 8rem;
+  height: 8rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 5%;
+}
+
+.selectStock {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  padding-top: 1rem;
+  padding-right: 2rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.selectStock > label {
+  margin-bottom: 0.8rem;
+  font-size: 14px;
+  font-weight: 600;
+  color: #979696;
+}
+
+.selectStock select {
+  height: 2.5rem;
+  border-radius: 5px;
+}
+
+.Gender {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+}
+
+.Gender > input {
+  margin-top: 1rem;
+}
+
+.Gender > label {
+  margin: 0.8rem;
+  font-size: 18px;
+  color: #555;
+}
+
+.Button {
+  margin: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 5rem;
+  height: 3rem;
+  background-color: #5550bd;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+}
+/*# sourceMappingURL=NewUser.module.css.map */

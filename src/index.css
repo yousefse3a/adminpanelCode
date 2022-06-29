@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 !important;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.negtive {
+  color: red !important;
+}
+
+.pending {
+  color: #1d706c !important;
+  background-color: lightblue !important;
+}
+
+.approved {
+  color: #388f38 !important;
+  background-color: lightgreen !important;
+}
+
+.declined {
+  color: #a41919 !important;
+  background-color: lightcoral !important;
+}
+/*# sourceMappingURL=index.css.map */

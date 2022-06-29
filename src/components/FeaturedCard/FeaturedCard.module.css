@@ -1,0 +1,66 @@
+.FeaturedCards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1rem 1rem 0rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.FeaturedCard {
+  padding: 1rem 3em;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 10px;
+  cursor: pointer;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.FeaturedCard > :nth-child(1) {
+  font-size: 1.3rem;
+}
+
+.FeaturedCard > :nth-child(3) {
+  font-size: 1rem;
+  color: gray;
+}
+
+.FeaturedCard > div {
+  margin: 10px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.FeaturedCard > div :nth-child(1) {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.FeaturedCard > div :nth-child(2) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 20px;
+}
+
+.FeaturedCard > div :nth-child(2) svg {
+  font-size: .9rem;
+  margin-left: 5px;
+  color: green;
+}
+/*# sourceMappingURL=FeaturedCard.module.css.map */

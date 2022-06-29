@@ -1,0 +1,115 @@
+.NewUser {
+  flex: 4;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.NewUserContainer {
+  padding: 1rem;
+  box-sizing: border-box;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  & > h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 1.2rem;
+  }
+}
+.newUserfrom {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  & > div {
+    width: 50%;
+    display: flex;
+    flex-flow: column wrap;
+    padding-top: 1rem;
+    padding-right: 2rem;
+    box-sizing: border-box;
+    & > label {
+      margin-bottom: 0.8rem;
+      font-size: 14px;
+      font-weight: 600;
+      color: rgb(151, 150, 150);
+    }
+    & > input {
+      height: 1.2rem;
+      padding: 0.4rem;
+      border: 1px solid gray;
+      border-radius: 5px;
+    }
+    & p {
+      color: rgb(240, 40, 40);
+      margin: 0;
+      padding: 0 0.5rem;
+      font-size: 1rem;
+    }
+  }
+}
+.lastCell {
+  display: flex;
+  justify-content: space-between;
+  & > label {
+    margin-bottom: 0.8rem;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(151, 150, 150);
+  }
+}
+.createBtn {
+  justify-content: center;
+  align-items: flex-end;
+}
+.imgPro {
+  & > img {
+    width: 8rem;
+    height: 8rem;
+    object-fit: cover;
+    border-radius: 5%;
+  }
+}
+.selectStock {
+  width: 50%;
+  display: flex;
+  flex-flow: column wrap;
+  padding-top: 1rem;
+  padding-right: 2rem;
+  box-sizing: border-box;
+  & > label {
+    margin-bottom: 0.8rem;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(151, 150, 150);
+  }
+  & select {
+    height: 2.5rem;
+    border-radius: 5px;
+  }
+}
+.Gender {
+
+  display: flex;
+  flex-flow:column nowrap ;
+  & > input {
+    margin-top: 1rem;
+  }
+  & > label {
+    margin: 0.8rem;
+    font-size: 18px;
+    color: #555;
+  }
+}
+
+.Button {
+  margin: 3rem;
+  display: flex;
+  width: 5rem;
+  height: 3rem;
+  background-color: #5550bd;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+}

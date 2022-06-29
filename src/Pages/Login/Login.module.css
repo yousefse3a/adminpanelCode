@@ -1,0 +1,62 @@
+.Login {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.5)));
+  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
+  background-size: cover;
+}
+
+.Warrper {
+  width: 30%;
+  padding: 1.5rem;
+  background-color: white;
+}
+
+.Warrper > h1 {
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.From {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+}
+
+.From > input {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  min-width: 40%;
+  margin: 10px 10px 10px 0;
+  padding: 10px;
+}
+
+.From > button {
+  width: 40%;
+  border: none;
+  padding: 15px 20px;
+  background-color: teal;
+  color: white;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.From > button:disabled {
+  color: green;
+  cursor: not-allowed;
+}
+/*# sourceMappingURL=Login.module.css.map */
