@@ -1,4 +1,5 @@
 # Getting Started with Create React App
+## use email:Admin@Admin.com pass:Admin@123
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
